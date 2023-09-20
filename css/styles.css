@@ -4,8 +4,47 @@ body {
     background-color: white;
     color: #434455;
 }
+p,h1,h2,h3,h4,h5{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
 
+.container{
+    max-width: 1158;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+   
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
+.header.container{
+    padding-top: 25.5px;
+    margin: 0 auto;
+    display: flexbox   ;
+  
+    
+    
+}
+.header-navigation{
+    
+}
+.header-logo{
+    margin-bottom: 76px;
+}
+    
 .header-logo {
     color: #4D5AE5;
     font-family: Raleway ,sans-serif;
@@ -14,10 +53,18 @@ body {
     font-weight: 700;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    padding: 24px;
 }
 
 .span-logo {
     color:#2E2F42;
+    
+}
+.header-list{
+  display: flex;
+  gap: 40px; 
+  padding: 24px; 
+justify-content:center;
 }
 
 .header-menu-item {
@@ -26,12 +73,20 @@ body {
     line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.32px;
+    display: block;
 }
 .header-menu-item:hover, .header-menu-item:focus{
     color: #404bbf;
 }
 .address{
     font-style: normal;
+    
+}
+.address-item{
+    display: flex;
+        gap: 40px;
+        padding-bottom: 24px;
+        
 }
 .address-link {
     color: #434455;
@@ -45,6 +100,7 @@ body {
 
 .section {
     background: #2E2F42;
+   
 }
 
 .section-heder {
@@ -53,6 +109,11 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    padding-top: 188px;
+        padding-left: 472px;
+        padding-right: 472px;
+        margin-bottom: 48px;
+        
 }
 
 .button {
@@ -62,11 +123,24 @@ body {
     letter-spacing: 0.04em;
     color: #FFF;
     cursor: pointer;
+    margin-top: 8px;
+    margin-left: 668px;
+    margin-right: 667px;
+    margin-bottom: 204px;
 }
 .button:hover, .button:focus{
     background-color: #404bbf;
 }
+.header-menu-soft{
+display: inline-flex;
+    flex-direction: row;
+}
+.section-header-soft{
 
+}
+.section{
+
+}
 .section-title {
     color: #2E2F42;
 
@@ -74,6 +148,8 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-top: 120px;
+        
 }
 
 .section-text {
@@ -86,6 +162,7 @@ body {
 
 .section-team {
     background-color: #F4F4FD;
+    margin-top: 120px;
 }
 
 .section-header-team {
@@ -95,6 +172,10 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-left: 639px;
+    padding-right: 639px;
+    margin-bottom: 572px;
 }
 .section-list{
     background-color: #FFFFFF;
@@ -102,6 +183,8 @@ body {
 
 .imagine {
     background-color: #FFF;
+    margin-bottom: 32px;
+    
 
 }
 
@@ -113,6 +196,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .section-text-team {
@@ -121,6 +205,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    margin-top: 232px;
+}
+.section-portfolio{
+   
 }
 
 .section-heder-portfolio {
@@ -131,10 +219,15 @@ body {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    padding-top: 120px;
+    
+
 }
 
 .imagine-portfolio {
     background: var(--WHITE, #FFF);
+    padding-top: 72px;
+    margin-bottom: 32px;
 }
 
 .section-title-portfolio {
@@ -143,6 +236,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
+   
 }
 
 .section-text-portfolio {
@@ -165,6 +259,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-bottom: 17.5px;
+    
 }
 
 .footer-span {
@@ -177,4 +273,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    padding-top: 140px;
+    padding-left: 156px;
+    padding-right: 1020px;
+    padding-bottom: 100px;
 }
