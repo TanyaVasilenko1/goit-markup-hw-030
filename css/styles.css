@@ -22,13 +22,12 @@ img{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-
-   
 }
 
 
 .header{
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
 .header.container {
@@ -57,6 +56,7 @@ img{
     padding: 24px;
     margin-right: 76px;
     margin-bottom: 76px;
+    display: flex;
 }
 
 .span-logo {
@@ -92,6 +92,9 @@ justify-content:center;
         gap: 40px;
         padding-bottom: 24px;
         
+}
+.address-list{
+    display: flex;
 }
 .address-link {
     color: #434455;
