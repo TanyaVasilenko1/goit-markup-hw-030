@@ -18,32 +18,38 @@ img{
 }
 
 .container{
-    max-width: 1158;
+    width: 1158;
     padding-left: 15px;
     padding-right: 15px;
   
    
 }
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+.container-header{
+    width: 1158;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+}
+
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header.container{
     padding-top: 25.5px;
     margin: 0 auto;
-    display: flexbox   ;
+    display: flexbox;
+    width: 1158;
   
     
     
 }
 .header-navigation{
-    
+    display: flex;
+    align-items: center;
 }
-.header-logo{
-    margin-bottom: 76px;
-}
+
     
 .header-logo {
     color: #4D5AE5;
@@ -54,6 +60,8 @@ img{
     letter-spacing: 0.54px;
     text-transform: uppercase;
     padding: 24px;
+    margin-right: 76px;
+    margin-bottom: 76px;
 }
 
 .span-logo {
@@ -74,6 +82,7 @@ justify-content:center;
     font-weight: 500;
     letter-spacing: 0.32px;
     display: block;
+    padding: 24px 0;
 }
 .header-menu-item:hover, .header-menu-item:focus{
     color: #404bbf;
@@ -100,6 +109,7 @@ justify-content:center;
 
 .section {
     background: #2E2F42;
+    padding: 188px 0;
    
 }
 
@@ -113,6 +123,7 @@ justify-content:center;
         padding-left: 472px;
         padding-right: 472px;
         margin-bottom: 48px;
+        max-width: 496px;
         
 }
 
@@ -127,19 +138,27 @@ justify-content:center;
     margin-left: 668px;
     margin-right: 667px;
     margin-bottom: 204px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button:hover, .button:focus{
     background-color: #404bbf;
 }
 .header-menu-soft{
-display: inline-flex;
-    flex-direction: row;
+display:flex;
+    gap: 24px;
+}
+.section-soft{
+padding: 120px 0;
 }
 .section-header-soft{
-
+    visibility: hidden;
 }
-.section{
-
+.section-choise{
+width: calc((100% - 72px) / 4);
 }
 .section-title {
     color: #2E2F42;
@@ -149,6 +168,7 @@ display: inline-flex;
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-top: 120px;
+    margin-bottom: 8px;
         
 }
 
@@ -163,6 +183,7 @@ display: inline-flex;
 .section-team {
     background-color: #F4F4FD;
     margin-top: 120px;
+    padding: 120px 0;
 }
 
 .section-header-team {
@@ -176,9 +197,16 @@ display: inline-flex;
     padding-left: 639px;
     padding-right: 639px;
     margin-bottom: 572px;
+    margin-bottom: 72px;
+}
+.section-drei-list{
+    display: flex;
+    gap: 24px;
 }
 .section-list{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .imagine {
@@ -186,6 +214,9 @@ display: inline-flex;
     margin-bottom: 32px;
     
 
+}
+.container-team{
+    padding: 32px 0;
 }
 
 .section-title-team {
@@ -197,6 +228,7 @@ display: inline-flex;
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .section-text-team {
@@ -206,9 +238,11 @@ display: inline-flex;
     line-height: 1.5;
     letter-spacing: 0.32px;
     margin-top: 232px;
+    text-align: center;
 }
 .section-portfolio{
-   
+    padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .section-heder-portfolio {
@@ -220,14 +254,29 @@ display: inline-flex;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     padding-top: 120px;
+    margin-bottom: 72px;
     
 
+}
+.section-four-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.section-four-list-first{
+    width: calc((100% - 48px) / 3);
 }
 
 .imagine-portfolio {
     background: var(--WHITE, #FFF);
     padding-top: 72px;
     margin-bottom: 32px;
+}
+.container-name{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .section-title-portfolio {
@@ -236,6 +285,7 @@ display: inline-flex;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
    
 }
 
@@ -249,6 +299,7 @@ display: inline-flex;
 
 .footer {
     background: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-link {
@@ -259,7 +310,9 @@ display: inline-flex;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    margin-bottom: 17.5px;
+    margin-bottom: 16px;
+    display: inline-block;
+
     
 }
 
