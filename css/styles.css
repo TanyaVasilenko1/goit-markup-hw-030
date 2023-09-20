@@ -76,7 +76,6 @@ justify-content:center;
     letter-spacing: 0.32px;
     display: block;
     padding: 24px 0;
-    display: flex;
 }
 .header-menu-item:hover, .header-menu-item:focus{
     color: #404bbf;
@@ -320,5 +319,5 @@ width: calc((100% - 72px) / 4);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    max-width: ;
+    max-width: 264px;
 }
