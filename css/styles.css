@@ -21,14 +21,8 @@ img{
     width: 1158;
     padding-left: 15px;
     padding-right: 15px;
-  
+
    
-}
-.container-header{
-    width: 1158;
-        padding-left: 15px;
-        padding-right: 15px;
-        display: flex;
 }
 
 
@@ -36,10 +30,10 @@ img{
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header.container{
+.header.container {
     padding-top: 25.5px;
     margin: 0 auto;
-    display: flexbox;
+    display: flex;
     width: 1158;
   
     
@@ -154,9 +148,7 @@ display:flex;
 .section-soft{
 padding: 120px 0;
 }
-.section-header-soft{
-    visibility: hidden;
-}
+
 .section-choise{
 width: calc((100% - 72px) / 4);
 }
